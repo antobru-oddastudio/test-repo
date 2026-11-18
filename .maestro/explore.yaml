@@ -1,0 +1,17 @@
+# Run against a development build started with EXPO_PUBLIC_FIXED_NOW=2026-11-18T10:00:00+01:00
+appId: app.addo.mobile
+---
+- launchApp
+- assertVisible: '2 eventi'
+- tapOn: 'Cibo'
+- assertVisible: '1 evento'
+- tapOn: 'Elenco'
+- tapOn: 'Apri dettaglio: Notte dei sapori'
+- assertVisible: 'Notte dei sapori'
+- back
+- tapOn: 'Mappa'
+- tapOn: 'EN'
+- assertVisible: '1 event'
+- tapOn: 'List'
+- tapOn: 'Open details: Night of flavours'
+- assertVisible: 'Night of flavours'

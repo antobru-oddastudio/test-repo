@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Addo.",
+    "slug": "addo",
+    "scheme": "addo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "bundleIdentifier": "app.addo.mobile" },
+    "android": { "package": "app.addo.mobile" },
+    "web": { "output": "static", "bundler": "metro", "favicon": "./public/icon-192.png" },
+    "plugins": ["expo-router", "expo-localization", "@maplibre/maplibre-react-native"],
+    "experiments": { "typedRoutes": true }
+  }
+}
