@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "timezone": "Europe/Rome",
+  "events": [
+    {
+      "id": "jazz-in-piazza",
+      "type": "music",
+      "title": { "it": "Jazz in piazza", "en": "Jazz in the square" },
+      "description": {
+        "it": "Concerto jazz all'aperto con quartetto locale.",
+        "en": "Open-air jazz concert with a local quartet."
+      },
+      "venue": { "it": "Piazza Maggiore, Bologna", "en": "Piazza Maggiore, Bologna" },
+      "organizer": "Associazione Note Vive",
+      "start": "2026-11-18T20:00:00+01:00",
+      "end": "2026-11-18T22:30:00+01:00",
+      "lat": 44.4939,
+      "lng": 11.343,
+      "poster": "https://placehold.co/600x800/C2410C/FFFFFF/png?text=Jazz",
+      "posterAlt": { "it": "Locandina del concerto jazz", "en": "Jazz concert poster" }
+    },
+    {
+      "id": "notte-dei-sapori",
+      "type": "food",
+      "title": { "it": "Notte dei sapori", "en": "Night of flavours" },
+      "description": {
+        "it": "Degustazione di street food fino a notte fonda.",
+        "en": "Street food tasting until late at night."
+      },
+      "venue": { "it": "Piazza Maggiore, Bologna", "en": "Piazza Maggiore, Bologna" },
+      "organizer": "Gusto Bologna",
+      "start": "2026-11-18T22:00:00+01:00",
+      "end": "2026-11-19T01:00:00+01:00",
+      "lat": 44.4939,
+      "lng": 11.343,
+      "poster": "https://placehold.co/600x800/7C2D12/FFFFFF/png?text=Food",
+      "posterAlt": { "it": "Locandina della degustazione", "en": "Tasting poster" }
+    },
+    {
+      "id": "mostra-luci",
+      "type": "art",
+      "title": { "it": "Mostra di luci", "en": "Light exhibition" },
+      "description": {
+        "it": "Installazioni luminose nel chiostro.",
+        "en": "Light installations in the cloister."
+      },
+      "venue": { "it": "Chiostro di San Giovanni, Bologna", "en": "San Giovanni Cloister, Bologna" },
+      "organizer": "Collettivo Lumen",
+      "start": "2026-11-19T18:00:00+01:00",
+      "end": "2026-11-19T21:00:00+01:00",
+      "lat": 44.4905,
+      "lng": 11.3487,
+      "poster": "https://placehold.co/600x800/EA580C/FFFFFF/png?text=Luci",
+      "posterAlt": { "it": "Locandina della mostra", "en": "Exhibition poster" }
+    },
+    {
+      "id": "corsa-dei-portici",
+      "type": "sport",
+      "title": { "it": "Corsa dei portici", "en": "Arcade run" },
+      "description": {
+        "it": "Corsa non competitiva di 5 km sotto i portici.",
+        "en": "Non-competitive 5 km run under the arcades."
+      },
+      "venue": { "it": "Porta Saragozza, Bologna", "en": "Porta Saragozza, Bologna" },
+      "organizer": "ASD Portici Running",
+      "start": "2026-11-21T09:00:00+01:00",
+      "end": "2026-11-21T11:00:00+01:00",
+      "lat": 44.4887,
+      "lng": 11.3207,
+      "poster": "https://placehold.co/600x800/9A3412/FFFFFF/png?text=Run",
+      "posterAlt": { "it": "Locandina della corsa", "en": "Run poster" }
+    }
+  ]
+}
